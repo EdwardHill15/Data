@@ -1,0 +1,18 @@
+---
+title: "NVM graph"
+author: "Edward Hill"
+date: "30-12-2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](https://raw.githubusercontent.com/EdwardHill15/Data/main/graph_total.png)
+
+![](https://raw.githubusercontent.com/EdwardHill15/Data/main/barchart1_vrouw.png)
+
+![](https://raw.githubusercontent.com/EdwardHill15/Data/main/barchart1_man.png)
+
+![](https://raw.githubusercontent.com/EdwardHill15/Data/main/graph_m_f.png)
