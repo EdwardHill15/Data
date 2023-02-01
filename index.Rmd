@@ -3,7 +3,9 @@ title: "Consciousness as predictor for behaviour"
 author: "Edward Hill"
 output: html_document
 email_address: totalegezondheidbv@gmail.com
-github_repo: https://github.com/EdwardHill15/drought_index
+github_repo: https://github.com/EdwardHill15/Data
+bibliography: citations.bib
+csl: apa.csl
 ---
 
 ```{r echo = FALSE, message = FALSE}
@@ -26,9 +28,31 @@ library(lubridate)
 }
 ```
 
+
 ![](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/consciousness_as_predictor2.png)
-
-
 
 Last updated on `r today()`   
 Site [developed](`r rmarkdown::metadata$github_repo`) by [Edward Hillenaar](mailto:`r rmarkdown::metadata$email_address`)
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. @chalmers2017hard.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this: @block2002harder
+
+```{r cars, echo = FALSE}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. @mittermayer_regular_2005
+
+## References
